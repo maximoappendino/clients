@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sample-001",
+    "name": "Producto de Ejemplo",
+    "price": 9999,
+    "category": "General",
+    "description": "Descripción del producto.",
+    "images": ["catalog/sample.jpg"],
+    "stock": 10,
+    "featured": true
+  }
+]

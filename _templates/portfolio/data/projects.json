@@ -1,0 +1,13 @@
+[
+  {
+    "id": "project-001",
+    "title": "Proyecto de Ejemplo",
+    "category": "Fotografía",
+    "thumbnail": "src/projects/sample.jpg",
+    "images": ["src/projects/sample.jpg"],
+    "description": "Descripción del proyecto.",
+    "year": 2025,
+    "link": "",
+    "featured": true
+  }
+]

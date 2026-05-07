@@ -1,0 +1,69 @@
+/* ─── COLOR SCHEMES ────────────────────────────────────────────────────────── */
+/* Usage: copy one scheme's variables into your config, or override in main.css */
+
+/* Scheme: Dark Minimal */
+.scheme-dark {
+  --color-bg: #0f0f0f;
+  --color-surface: #1a1a1a;
+  --color-border: #2a2a2a;
+  --color-text: #f0f0f0;
+  --color-text-muted: #888;
+  --color-primary: #ffffff;
+  --color-accent: #e63946;
+}
+
+/* Scheme: Light Clean */
+.scheme-light {
+  --color-bg: #ffffff;
+  --color-surface: #f8f8f8;
+  --color-border: #e8e8e8;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666;
+  --color-primary: #1a1a1a;
+  --color-accent: #e63946;
+}
+
+/* Scheme: Warm */
+.scheme-warm {
+  --color-bg: #fdf6ec;
+  --color-surface: #fff9f2;
+  --color-border: #e8d9c5;
+  --color-text: #2c1810;
+  --color-text-muted: #7a5c4a;
+  --color-primary: #2c1810;
+  --color-accent: #c0392b;
+}
+
+/* Scheme: Pastel */
+.scheme-pastel {
+  --color-bg: #faf0f5;
+  --color-surface: #ffffff;
+  --color-border: #f0d6e4;
+  --color-text: #2d1b26;
+  --color-text-muted: #9b7080;
+  --color-primary: #a0496a;
+  --color-accent: #e91e63;
+}
+
+/* ─── FONT STACKS ──────────────────────────────────────────────────────────── */
+/* Paste one into config.js → theme.fontImport + theme.font */
+
+/*
+  Inter (clean, modern):
+    import: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+    font: "'Inter', sans-serif"
+
+  Playfair + Lato (editorial):
+    import: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Lato:wght@300;400&display=swap"
+    font: "'Lato', sans-serif"
+    fontHeading: "'Playfair Display', serif"
+
+  DM Sans (friendly, rounded):
+    import: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&display=swap"
+    font: "'DM Sans', sans-serif"
+
+  Cormorant + Jost (luxury):
+    import: "https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Jost:wght@300;400&display=swap"
+    font: "'Jost', sans-serif"
+    fontHeading: "'Cormorant', serif"
+*/

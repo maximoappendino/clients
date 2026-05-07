@@ -1,0 +1,11 @@
+{
+  "name": "ecommerce-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync":    "node scripts/sync-catalog.js",
+    "clean":   "node scripts/sync-catalog.js --clean",
+    "dry-run": "node scripts/sync-catalog.js --dry-run",
+    "dev":     "npx serve . -p 3000"
+  }
+}

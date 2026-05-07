@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <nav id="nav">
+    <span id="nav-name"></span>
+    <div id="nav-links"></div>
+  </nav>
+
+  <section id="hero">
+    <div id="hero-text">
+      <img id="hero-avatar" src="" alt="" style="display:none">
+      <h1 id="hero-name"></h1>
+      <p  id="hero-title"></p>
+      <p  id="hero-bio"></p>
+    </div>
+  </section>
+
+  <section id="work">
+    <h2 id="work-title"></h2>
+    <div id="filters"></div>
+    <div id="projects-grid"></div>
+  </section>
+
+  <section id="about">
+    <div id="about-inner">
+      <div>
+        <h2 id="about-title">Sobre mí</h2>
+        <p id="about-text"></p>
+      </div>
+      <div id="about-image"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 id="contact-title"></h2>
+    <p  id="contact-subtitle"></p>
+    <div id="contact-links"></div>
+  </section>
+
+  <footer id="footer">
+    <p id="footer-text"></p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox-overlay">
+    <span id="lightbox-close">×</span>
+    <img id="lightbox-img" src="" alt="">
+    <div id="lightbox-caption">
+      <strong id="lightbox-title"></strong>
+      <span   id="lightbox-meta"></span>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "primer-post",
+    "title": "Título del Primer Post",
+    "slug": "primer-post",
+    "category": "General",
+    "date": "2026-01-01",
+    "author": "Tu Nombre",
+    "excerpt": "Resumen breve del artículo que aparece en la grilla.",
+    "thumbnail": "posts/sample.jpg",
+    "content": "<p>Contenido completo del post en HTML.</p><p>Podés escribir párrafos, <strong>negritas</strong>, listas, etc.</p>",
+    "featured": true
+  }
+]
