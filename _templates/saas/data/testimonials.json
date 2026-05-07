@@ -1,0 +1,23 @@
+[
+  {
+    "quote": "This completely replaced three tools we were paying for. Our team onboarded in an afternoon and hasn't looked back.",
+    "name": "Sarah Chen",
+    "role": "Head of Product",
+    "company": "Acme Inc.",
+    "avatar": ""
+  },
+  {
+    "quote": "The analytics alone are worth the price. I finally know what my team is actually working on.",
+    "name": "Marcus Rivera",
+    "role": "Engineering Manager",
+    "company": "Buildco",
+    "avatar": ""
+  },
+  {
+    "quote": "Setup took 10 minutes. The Slack integration is seamless. Honestly couldn't be easier.",
+    "name": "Priya Nair",
+    "role": "Founder",
+    "company": "LaunchPad",
+    "avatar": ""
+  }
+]

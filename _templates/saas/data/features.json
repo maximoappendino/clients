@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "⚡",
+    "title": "Blazing fast",
+    "description": "Sub-second response times. No waiting, no spinners, no frustration."
+  },
+  {
+    "icon": "🔒",
+    "title": "Enterprise security",
+    "description": "SOC 2 compliant. End-to-end encryption. Your data never leaves your region."
+  },
+  {
+    "icon": "🔗",
+    "title": "Works with your stack",
+    "description": "Native integrations with Slack, Notion, GitHub, and 50+ more tools."
+  },
+  {
+    "icon": "📊",
+    "title": "Real-time analytics",
+    "description": "See exactly what's happening. Live dashboards with zero configuration."
+  },
+  {
+    "icon": "🤝",
+    "title": "Built for teams",
+    "description": "Roles, permissions, shared workspaces. Everyone on the same page."
+  },
+  {
+    "icon": "🛠",
+    "title": "No-code setup",
+    "description": "Get started in 5 minutes without touching a single line of code."
+  }
+]

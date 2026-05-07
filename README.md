@@ -8,6 +8,7 @@ Modular website templates. Each new client gets a copy of a template folder.
 clients/
 ├── _templates/
 │   ├── e-commerce/     ← online store with WhatsApp checkout
+│   ├── saas/           ← SaaS landing page with pricing, features, FAQ
 │   ├── portfolio/      ← personal/creative portfolio
 │   └── blog/           ← article blog
 ├── _shared/
@@ -64,6 +65,32 @@ npm run dev        # opens localhost:3000
 ### Cart → WhatsApp checkout
 
 When the customer clicks "Pedir por WhatsApp", it opens WhatsApp with a pre-formatted message listing all items + subtotal.
+
+---
+
+## SaaS
+
+Edit `config.js` for all brand/theme/section settings. Edit the `data/` JSON files for content:
+
+| File | Controls |
+|------|----------|
+| `data/features.json` | Feature cards (icon, title, description) |
+| `data/pricing.json` | Pricing tiers (name, monthly/annual price, features list) |
+| `data/how-it-works.json` | Step-by-step process |
+| `data/testimonials.json` | Customer quotes |
+| `data/faq.json` | FAQ accordion |
+
+Key `config.js` options:
+
+| Key | What it controls |
+|-----|-----------------|
+| `brand.name` | Product name in nav, title, footer |
+| `theme.scheme` | `"dark"` or `"light"` |
+| `theme.accentColor` | CTA button color (e.g. `"#6c47ff"`) |
+| `hero.headline` | Main headline — use `\n` for line breaks |
+| `hero.image` | Path to product screenshot/mockup |
+| `pricing.billingToggle` | Show monthly/annual toggle |
+| `logos.show` | Show "trusted by" logo bar |
 
 ---
 

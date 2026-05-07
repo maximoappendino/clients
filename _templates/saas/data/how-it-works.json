@@ -1,0 +1,17 @@
+[
+  {
+    "step": "01",
+    "title": "Create your account",
+    "description": "Sign up in 30 seconds. No credit card required."
+  },
+  {
+    "step": "02",
+    "title": "Connect your tools",
+    "description": "Integrate with the apps your team already uses."
+  },
+  {
+    "step": "03",
+    "title": "Start collaborating",
+    "description": "Invite your team and hit the ground running immediately."
+  }
+]

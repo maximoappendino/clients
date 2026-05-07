@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Is there a free plan?",
+    "answer": "Yes. The Starter plan is free forever with no credit card required. You can upgrade at any time."
+  },
+  {
+    "question": "Can I cancel anytime?",
+    "answer": "Absolutely. No lock-in contracts. Cancel from your account settings in one click and you won't be charged again."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, Mastercard, Amex) and PayPal. Annual plans can also be paid by invoice."
+  },
+  {
+    "question": "How does the annual discount work?",
+    "answer": "When you switch to annual billing, you get the equivalent of 2 months free compared to paying monthly."
+  },
+  {
+    "question": "Do you offer discounts for startups or nonprofits?",
+    "answer": "Yes — reach out to us and we'll work something out. We have special programs for early-stage startups and registered nonprofits."
+  },
+  {
+    "question": "Is my data secure?",
+    "answer": "Yes. We're SOC 2 Type II certified. All data is encrypted at rest and in transit. We never sell your data to third parties."
+  }
+]

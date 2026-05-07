@@ -5,8 +5,22 @@
     "price": 9999,
     "category": "General",
     "description": "Descripción del producto.",
-    "images": ["catalog/sample.jpg"],
-    "stock": 10,
+    "images": [
+      "catalog/sample.jpg"
+    ],
+    "stock": 0,
     "featured": true
+  },
+  {
+    "id": "deo-16000-crema",
+    "name": "Deo",
+    "price": 16000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/deo_16000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
   }
 ]

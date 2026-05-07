@@ -6,9 +6,9 @@ const CONFIG = {
   /* ── Store identity ───────────────────────────────────── */
   store: {
     name:    "Yo Soy Eva",
-    tagline: "Tu slogan aquí",
-    logo:    "",           // path to logo image, or "" to use text
-    favicon: "",           // path to favicon
+    tagline: "Cremas Alucinantes",
+    logo:    "./img/lego.png",           // path to logo image, or "" to use text
+    favicon: "./img/lego.png",           // path to favicon
     currency:       "ARS", // shown in metadata
     currencySymbol: "$",   // shown on prices
     locale:         "es-AR",
@@ -17,7 +17,7 @@ const CONFIG = {
   /* ── WhatsApp ─────────────────────────────────────────── */
   whatsapp: {
     number:  "+5493515426913",         // full number with country code
-    greeting: "Hola! 👋 Me gustaría hacer el siguiente pedido:\n\n",
+    greeting: "Hola! Me gustaría hacer el siguiente pedido:\n\n",
     footer:   "\n\n¿Pueden confirmar disponibilidad?",
     floatingButton: true,              // show floating WhatsApp button
     checkoutButton: true,              // show "Pedir por WhatsApp" in cart
@@ -25,7 +25,7 @@ const CONFIG = {
 
   /* ── Theme ────────────────────────────────────────────── */
   theme: {
-    scheme: "light",    // "light" | "dark" | "warm" | "pastel" | "custom"
+    scheme: "pastel",    // "light" | "dark" | "warm" | "pastel" | "custom"
 
     // Only used when scheme = "custom" — override individual variables:
     custom: {

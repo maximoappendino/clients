@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Starter",
+    "description": "Perfect for small teams getting started.",
+    "monthlyPrice": 0,
+    "annualPrice": 0,
+    "priceNote": "Free forever",
+    "highlighted": false,
+    "features": [
+      "Up to 3 users",
+      "5 projects",
+      "1 GB storage",
+      "Community support"
+    ],
+    "cta": "Get started free"
+  },
+  {
+    "name": "Pro",
+    "description": "For growing teams that need more power.",
+    "monthlyPrice": 29,
+    "annualPrice": 23,
+    "priceNote": "per user / month",
+    "highlighted": true,
+    "badge": "Most popular",
+    "features": [
+      "Unlimited users",
+      "Unlimited projects",
+      "100 GB storage",
+      "Priority support",
+      "Advanced analytics",
+      "Custom integrations"
+    ],
+    "cta": "Start free trial"
+  },
+  {
+    "name": "Business",
+    "description": "Advanced features for larger organizations.",
+    "monthlyPrice": 79,
+    "annualPrice": 63,
+    "priceNote": "per user / month",
+    "highlighted": false,
+    "features": [
+      "Everything in Pro",
+      "SSO / SAML",
+      "Audit logs",
+      "SLA guarantee",
+      "Dedicated account manager"
+    ],
+    "cta": "Start free trial"
+  }
+]
