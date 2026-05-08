@@ -29,14 +29,29 @@
     </div>
   </section>
 
+  <!-- ─── PROMO BRIDGE ───────────────────────────────────────────────── -->
+  <section id="promo">
+    <h2 id="promo-heading"></h2>
+    <div id="promo-items"></div>
+  </section>
+
   <!-- ─── CATALOG ──────────────────────────────────────────────────────── -->
   <main id="catalog">
-    <div id="categories"></div>
+    <div id="catalog-controls">
+      <div id="categories"></div>
+      <select id="sort-select" aria-label="Ordenar productos"></select>
+    </div>
     <div id="products-grid">
       <!-- rendered by app.js -->
     </div>
     <div id="empty-state">No se encontraron productos.</div>
   </main>
+
+  <!-- ─── ANNOUNCEMENT ─────────────────────────────────────────────────── -->
+  <section id="announcement">
+    <div id="announcement-items"></div>
+    <p id="announcement-note"></p>
+  </section>
 
   <!-- ─── FOOTER ───────────────────────────────────────────────────────── -->
   <footer id="footer">

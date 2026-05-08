@@ -71,6 +71,35 @@ const CONFIG = {
     outOfStockLabel:   "Sin stock",
     addToCartLabel:    "Agregar",
     showPriceOnCard:   true,
+    showSort:          true,        // show sort dropdown
+    defaultSort:       "featured",  // "featured" | "name-asc" | "name-desc" | "price-asc" | "price-desc" | "category"
+  },
+
+  /* ── Promo bridge ─────────────────────────────────────── */
+  // Section between the hero and the catalog.
+  // layout: "cards" → image cards grid | "alternating" → magazine-style
+  promo: {
+    show: false,
+    layout: "alternating",   // "cards" | "alternating"
+    heading: "",             // optional section title, "" to hide
+    items: [
+      // { image: "", label: "", title: "", text: "", cta: "", ctaUrl: "" },
+    ],
+  },
+
+  /* ── Announcement bar ─────────────────────────────────── */
+  // Shown between the product grid and the footer.
+  // Use it for shipping info, guarantees, store hours, legal notices, etc.
+  announcement: {
+    show: true,
+    items: [
+      { icon: "🚚", title: "Envío a todo el país", text: "Coordinamos por WhatsApp." },
+      { icon: "✅", title: "Garantía",              text: "30 días por defecto del fabricante." },
+      { icon: "💬", title: "Atención al cliente",   text: "Lunes a viernes de 9 a 18hs." },
+    ],
+    // Optional freeform text below the items (legal, warranty details, store policy, etc.)
+    // Supports basic HTML like <strong>, <a href="">, <br>.
+    note: "",
   },
 
   /* ── Cart ─────────────────────────────────────────────── */

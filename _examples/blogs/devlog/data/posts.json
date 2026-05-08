@@ -1,0 +1,86 @@
+[
+  {
+    "id": "semana-12-primer-pago",
+    "title": "Semana 12: el primer pago real y por qué lloré frente a la pantalla",
+    "slug": "semana-12-primer-pago",
+    "category": "Building",
+    "date": "2026-04-30",
+    "author": "Mateo Vidal",
+    "excerpt": "$47 USD. El primer ingreso de un producto que construí solo. No importa el número. Importa lo que significa.",
+    "thumbnail": "https://placehold.co/800x500/0a0c0e/22c55e?text=WEEK+12",
+    "content": "<p>El 28 de abril a las 11:47pm llegó el primer pago de Stripe. <strong>$47 USD</strong>. Un usuario de Utah pagó el plan Pro de mi tool de monitoreo de APIs.</p><p>No me conoce. No soy su amigo. No lo contacté. Simplemente encontró el producto, vio que resolvía su problema, y pagó.</p><p>Sigo sin poder creerlo.</p><h2>Qué pasó esta semana</h2><p>Lancé en Hacker News el lunes. 47 puntos. 12 comentarios. Dos registros que se convirtieron en trials activos.</p><p>El martes fue horrible: bajé el servidor sin querer corriendo una migration en prod. Estuvo caído 40 minutos. Aprendí que necesito un staging environment.</p><p>El miércoles fijé el bug de auth que me venía molestando hace tres semanas. Resulta que era un timezone issue en JWT expiry. Clásico.</p><p>El jueves llegó el pago.</p>",
+    "featured": true
+  },
+  {
+    "id": "migre-a-go-y-sobrevivi",
+    "title": "Migré el backend de Node a Go. Lo que nadie te dice.",
+    "slug": "migre-a-go-y-sobrevivi",
+    "category": "Technical",
+    "date": "2026-04-18",
+    "author": "Mateo Vidal",
+    "excerpt": "Después de 6 meses con Node.js/Express, decidí reescribir todo en Go. Spoiler: la memoria bajó un 80%. El tiempo de respuesta, también.",
+    "thumbnail": "https://placehold.co/800x500/0a0c0e/06b6d4?text=GO+MIGRATION",
+    "content": "<p>Node estuvo bien. Para prototipar, es imbatible. Pero cuando el tráfico empezó a crecer (muy poco, todavía, pero algo), noté que mi servidor de $6/mes en Hetzner se estaba quedando sin memoria.</p><p>Decidí reescribir en Go. Lo que nadie te dice:</p><ul><li>La curva de aprendizaje del sistema de tipos es real. Especialmente los interfaces.</li><li>El tooling es increíble. <code>go build</code> y <code>go test</code> son rápidos de verdad.</li><li>Error handling explícito es tedioso al principio. Después no querés volver atrás.</li><li>El binario final mide 12MB. El Docker image bajó de 180MB a 22MB.</li></ul><p>¿Valió la pena? Para mí, sí. Latencia promedio pasó de 180ms a 28ms. RAM de 340MB a 67MB.</p>",
+    "featured": false
+  },
+  {
+    "id": "construir-publico-miedo",
+    "title": "El miedo de construir en público (y por qué lo hago igual)",
+    "slug": "construir-publico-miedo",
+    "category": "Reflexiones",
+    "date": "2026-04-05",
+    "author": "Mateo Vidal",
+    "excerpt": "¿Qué pasa si no funciona y lo vio todo el mundo? Esa pregunta me paralizó tres meses. Esta es la historia de cómo la superé.",
+    "thumbnail": "https://placehold.co/800x500/0f0a1a/a855f7?text=PUBLIC",
+    "content": "<p>Empecé a escribir este devlog el 1 de enero con exactamente cero lectores. Hoy tiene 340 suscriptores. Pequeño. Pero real.</p><p>Lo que cambió no fue el producto. Fue la mentalidad. Construir en público me obliga a articular lo que estoy haciendo y por qué. Eso me hace más claro. Y esa claridad se refleja en el código.</p><p>También me obliga a ser honesto cuando las cosas van mal. Y van mal seguido.</p>",
+    "featured": false
+  },
+  {
+    "id": "error-que-me-costo-caro",
+    "title": "El bug de producción que casi me costó el primer cliente",
+    "slug": "error-que-me-costo-caro",
+    "category": "Mistakes",
+    "date": "2026-03-22",
+    "author": "Mateo Vidal",
+    "excerpt": "Un DELETE sin WHERE en producción. A las 2am. Con el único usuario activo conectado. Esto es lo que pasó.",
+    "thumbnail": "https://placehold.co/800x500/1a0505/ef4444?text=BUG",
+    "content": "<p>Era la 1:47am. Estaba cansado. Quería limpiar unos registros de test de la base de datos.</p><p>Corrí: <code>DELETE FROM webhook_logs WHERE env = 'test'</code></p><p>En la terminal equivocada. La de producción.</p><p>Borré 3.200 registros de logs de mi único usuario activo. Registros que él necesitaba para su auditoría interna.</p><p>Lo que hice: envié un email a las 2am explicando exactamente qué pasó, sin excusas. Restauré un backup de 6 horas antes. Perdió algunas horas de data. Me ofreció a darle un mes gratis.</p><p>Su respuesta: <em>"Gracias por avisar de inmediato. Quedamos bien."</em></p><p>Lo que aprendí: nada reemplaza la honestidad rápida ante un error.</p>",
+    "featured": false
+  },
+  {
+    "id": "stack-2026",
+    "title": "Mi stack en 2026: lo que uso, lo que abandoné, lo que agregaría",
+    "slug": "stack-2026",
+    "category": "Technical",
+    "date": "2026-03-08",
+    "author": "Mateo Vidal",
+    "excerpt": "Go + Postgres + Next.js + Hetzner. Y por qué no uso Vercel, Supabase, ni ningún servicio que me genere dependencia.",
+    "thumbnail": "https://placehold.co/800x500/0a0c10/f59e0b?text=STACK",
+    "content": "<p><strong>Backend:</strong> Go con chi router. Sin ORM. SQL a mano.</p><p><strong>Base de datos:</strong> PostgreSQL en un VPS de Hetzner. €4.5/mes. Backups a S3.</p><p><strong>Frontend:</strong> Next.js 15 con App Router. TailwindCSS.</p><p><strong>Infraestructura:</strong> Kamal para deploys. Cloudflare para DNS y CDN. Todo en VPS propios.</p><p><strong>Lo que abandoné:</strong> Supabase (vendor lock-in), Vercel (caro a escala), Prisma (demasiada magia), AWS (overkill para mi etapa).</p>",
+    "featured": false
+  },
+  {
+    "id": "primer-cliente-outbound",
+    "title": "Conseguí mi primer cliente mandando 12 emails fríos",
+    "slug": "primer-cliente-outbound",
+    "category": "Growth",
+    "date": "2026-02-20",
+    "author": "Mateo Vidal",
+    "excerpt": "No tenía audiencia. No tenía reputación. Tenía un producto que resolvía un problema real y 12 emails bien escritos. Resultó.",
+    "thumbnail": "https://placehold.co/800x500/0a0f0a/22c55e?text=OUTBOUND",
+    "content": "<p>Mandé 12 emails fríos a founders que vi en Product Hunt con proyectos que tenían APIs públicas. Mi pitch: <em>'Vi que tu producto tiene webhooks. Construí algo que los monitorea. ¿Querés verlo?'</em></p><p>5 me ignoraron. 4 dijeron que no. 2 pidieron una demo. 1 se convirtió en cliente de pago.</p><p>Conversión: 8.3%. Mucho mejor que cualquier ad que haya corrido.</p>",
+    "featured": false
+  },
+  {
+    "id": "modo-oscuro-decision",
+    "title": "Por qué saqué el modo oscuro y no lo voy a agregar de nuevo",
+    "slug": "modo-oscuro-decision",
+    "category": "Building",
+    "date": "2026-02-05",
+    "author": "Mateo Vidal",
+    "excerpt": "Pasé 6 horas implementando dark mode. Lo usaron 3 personas. Lo saqué. Las horas tienen un costo de oportunidad.",
+    "thumbnail": "https://placehold.co/800x500/0e0e0e/64748b?text=DARK+MODE",
+    "content": "<p>Hay features que suenan bien pero no mueven la aguja. Dark mode es una de ellas para mi producto actual.</p><p>Analicé los datos: en 3 semanas, 3 de 47 usuarios activos tenían dark mode activado. Las 6 horas que le dediqué podrían haber sido onboarding mejorado, que sí afecta churn.</p><p>Lo saqué. Nadie se quejó.</p><p>La lección: construir features porque son cool es trampa. Construí features que resuelven problemas documentados.</p>",
+    "featured": false
+  }
+]

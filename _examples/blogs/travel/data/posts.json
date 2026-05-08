@@ -1,0 +1,86 @@
+[
+  {
+    "id": "marruecos-medina-fez",
+    "title": "Perderse en Fez: el arte de no tener GPS",
+    "slug": "marruecos-medina-fez",
+    "category": "África",
+    "date": "2026-04-22",
+    "author": "Valentina Ruiz",
+    "excerpt": "La medina más antigua del mundo no tiene calles rectas ni señales claras. Y eso, resulta, es exactamente el punto.",
+    "thumbnail": "https://placehold.co/800x500/2a1810/c2714f?text=FEZ",
+    "content": "<p>Llegué a Fez con un mapa descargado y salí de la medina sin él. No porque lo perdí, sino porque entendí que un mapa en ese lugar es una promesa rota.</p><p>La medina de Fez el Bali tiene más de 9,000 calles. La mayoría no tiene nombre. Muchas terminan en una pared. Otras llevan a un zoco que no aparece en ningún sitio web.</p><p>Durante dos días me perdí completamente. Comí en lugares donde nadie hablaba inglés. Vi alfombras teñidas con azafrán. Tomé el mejor té con menta de mi vida en el patio de alguien que me invitó sin que yo dijera nada.</p><p>Fez no se visita. Se vive.</p>",
+    "featured": true
+  },
+  {
+    "id": "japon-rural-satoyama",
+    "title": "El Japón que no está en Instagram: Satoyama y el campo que desaparece",
+    "slug": "japon-rural-satoyama",
+    "category": "Asia",
+    "date": "2026-04-08",
+    "author": "Valentina Ruiz",
+    "excerpt": "Más allá de Tokio y Kioto existe un Japón rural que los japoneses mismos están perdiendo. Fui a verlo antes de que sea tarde.",
+    "thumbnail": "https://placehold.co/800x500/1a2418/4d7c0f?text=SATOYAMA",
+    "content": "<p>Satoyama es un concepto japonés sin traducción directa. Es el espacio entre la montaña y el pueblo. El lugar donde coexistían humanos y naturaleza durante siglos.</p><p>Fui a la prefectura de Hyogo a ver uno de los últimos que quedan intactos. Arrozales en terrazas, bambusales, pequeñas granjas. Y casi nadie menor de 70 años.</p><p>Japan Rural Life Adventure me asignó a una familia de agricultores por cuatro días. No hablaban inglés. Yo no hablo japonés. Pero plantamos arroz juntos de todos modos.</p>",
+    "featured": false
+  },
+  {
+    "id": "patagonia-carretera-austral",
+    "title": "Carretera Austral: 1.200 km de tierra, lluvia y silencio",
+    "slug": "patagonia-carretera-austral",
+    "category": "Sudamérica",
+    "date": "2026-03-14",
+    "author": "Valentina Ruiz",
+    "excerpt": "La ruta más salvaje de Chile no perdona. Tampoco olvida. Diez días en moto desde Puerto Montt hasta Villa O'Higgins.",
+    "thumbnail": "https://placehold.co/800x500/0f1e2a/0ea5e9?text=PATAGONIA",
+    "content": "<p>Salí de Puerto Montt con lluvia. Llegué a Villa O'Higgins con lluvia. En el medio: volcanes, glaciares azules, pueblos con 40 habitantes y un tipo en Futaleufú que me arregló una cubierta con herramientas que no había visto desde los años 90.</p><p>La Carretera Austral no es una ruta turística. Es una obra de ingeniería construida por el ejército de Pinochet que hoy conecta comunidades que de otro modo serían inaccesibles.</p><p>Es también, sin dudas, uno de los paisajes más impresionantes del planeta.</p>",
+    "featured": false
+  },
+  {
+    "id": "georgia-tbilisi-vino-natural",
+    "title": "Tbilisi y el vino más antiguo del mundo",
+    "slug": "georgia-tbilisi-vino-natural",
+    "category": "Europa",
+    "date": "2026-02-27",
+    "author": "Valentina Ruiz",
+    "excerpt": "Georgia inventó el vino hace 8.000 años. Lo hace en ánforas enterradas bajo tierra. Y lo sirve en cada mesa sin que nadie te lo pida.",
+    "thumbnail": "https://placehold.co/800x500/1e1008/92400e?text=TBILISI",
+    "content": "<p>En Georgia el vino no es un lujo. Es hospitalidad. Entrar a la casa de alguien en Tbilisi significa que habrá vino en la mesa antes de que te sientes.</p><p>El <em>qvevri</em>, la ánfora de barro enterrada donde fermentan el vino, tiene 8.000 años de antigüedad. La UNESCO lo declaró Patrimonio Inmaterial. Los georgianos lo llaman simplemente vino.</p><p>Pasé una semana recorriendo bodegas en Kakheti, la región vinícola del este. Probé más de 40 etiquetas. Dormí en un guesthouse con viñas en el jardín. No me arrepiento de nada.</p>",
+    "featured": false
+  },
+  {
+    "id": "vietnam-ha-giang-moto",
+    "title": "Ha Giang en moto: el norte de Vietnam que te rompe el corazón",
+    "slug": "vietnam-ha-giang-moto",
+    "category": "Asia",
+    "date": "2026-02-10",
+    "author": "Valentina Ruiz",
+    "excerpt": "Cuatro días por el Loop de Ha Giang, las carreteras más peligrosas y más bellas del Sudeste Asiático.",
+    "thumbnail": "https://placehold.co/800x500/0c1a10/16a34a?text=HA+GIANG",
+    "content": "<p>El Loop de Ha Giang es una ruta de cuatro días por las montañas del norte de Vietnam que bordea China. Las carreteras son de una mano, con precipicios de 500 metros. Las vistas, inalcanzables.</p><p>Alquilé una Honda Win de 110cc por 8 dólares el día. Casi la mando al barranco el primer día. Al cuarto, sentía que había nacido para esa ruta.</p>",
+    "featured": false
+  },
+  {
+    "id": "sicilia-interior-borghi",
+    "title": "El interior de Sicilia: los pueblos que el turismo olvidó",
+    "slug": "sicilia-interior-borghi",
+    "category": "Europa",
+    "date": "2026-01-20",
+    "author": "Valentina Ruiz",
+    "excerpt": "A dos horas de Palermo, hay aldeas medievales donde las casas se venden por un euro y los ancianos son los únicos habitantes.",
+    "thumbnail": "https://placehold.co/800x500/1e1408/d97706?text=SICILIA",
+    "content": "<p>Gangi, Sambuca di Sicilia, Mussomeli. Pueblos medievales en las colinas sicilianas donde el tiempo parece haberse detenido en 1960. Las calles son empedradas y angostas. Los balcones tienen flores. Y casi no hay nadie.</p><p>La despoblación rural en Sicilia es real. Por eso varios municipios empezaron a vender casas abandonadas por un euro simbólico, con la condición de que el comprador las refaccione.</p>",
+    "featured": false
+  },
+  {
+    "id": "etiopia-simen-mountains",
+    "title": "Las Montañas Simién: trekking en el techo de África",
+    "slug": "etiopia-simen-mountains",
+    "category": "África",
+    "date": "2026-01-05",
+    "author": "Valentina Ruiz",
+    "excerpt": "Siete días a pie por un Parque Nacional declarado en peligro. Ibis de cresta, lobos etíopes y vistas que no tienen palabras.",
+    "thumbnail": "https://placehold.co/800x500/1a0a00/f97316?text=SIMIEN",
+    "content": "<p>El Parque Nacional de las Montañas Simién, en el norte de Etiopía, tiene cimas de más de 4.500 metros. Es el único lugar del mundo donde vive el Lobo etíope, el cánido más raro del planeta.</p><p>Hice el trekking de siete días con Abrham, mi guía de Debark, y un cocinero que preparaba injera todas las noches. Dormimos en carpas. La temperatura bajó a -5°C. Los geladas, los únicos primates que se alimentan de pasto, nos rodearon en el día 3.</p>",
+    "featured": false
+  }
+]

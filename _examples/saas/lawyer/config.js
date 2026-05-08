@@ -1,0 +1,71 @@
+const CONFIG = {
+  brand: {
+    name:    "LexAI",
+    tagline: "Legal intelligence for the modern firm.",
+    logo:    "",
+    favicon: "",
+  },
+  theme: {
+    scheme:      "dark",
+    accentColor:     "#c9a84c",
+    accentColorText: "#0d0a00",
+    fontImport:  "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    font:        "'Inter', sans-serif",
+    borderRadius: "8px",
+    custom: {},
+  },
+  nav: {
+    links: [
+      { label: "Features",  href: "#features" },
+      { label: "Pricing",   href: "#pricing" },
+      { label: "FAQ",       href: "#faq" },
+    ],
+    ctaPrimary:   { label: "Request demo",  href: "#pricing" },
+    ctaSecondary: { label: "Sign in",       href: "#" },
+  },
+  hero: {
+    badge:      "Trusted by 300+ law firms",
+    headline:   "Your entire case file.\nAnswered in seconds.",
+    subheadline: "LexAI reads your contracts, case law, and briefs. Ask anything. Get citable answers in plain language.",
+    ctaPrimary:   { label: "Request a demo →",  href: "#pricing" },
+    ctaSecondary: { label: "Watch 2-min overview", href: "#" },
+    socialProof:  "Used by 300+ firms across Argentina, Chile and Colombia",
+    image:        "",
+  },
+  logos: { show: false, label: "", items: [] },
+  features: {
+    title:    "Built for how lawyers actually work",
+    subtitle: "Not another generic AI tool. LexAI is trained on civil, corporate and litigation law for LATAM.",
+    columns:  3,
+  },
+  howItWorks: {
+    show:     true,
+    title:    "From upload to insight in under 30 seconds",
+    subtitle: "",
+  },
+  pricing: {
+    title:          "Transparent pricing",
+    subtitle:       "All plans include unlimited AI queries. Cancel anytime.",
+    billingToggle:  true,
+    annualDiscount: "2 meses gratis",
+    currency:       "USD",
+    ctaLabel:       "Get started",
+    enterpriseCard: true,
+  },
+  testimonials: { show: true, title: "What our clients say" },
+  faq: { show: true, title: "Frequently asked questions" },
+  cta: {
+    headline: "Start working smarter today.",
+    subtitle: "Book a 20-minute personalized demo. No commitment required.",
+    button:   { label: "Request a demo →", href: "#pricing" },
+  },
+  footer: {
+    columns: [
+      { title: "Product",  links: [{ label: "Features", href: "#" }, { label: "Pricing", href: "#" }, { label: "Security", href: "#" }] },
+      { title: "Company",  links: [{ label: "About", href: "#" }, { label: "Blog", href: "#" }, { label: "Careers", href: "#" }] },
+      { title: "Legal",    links: [{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }, { label: "DPA", href: "#" }] },
+    ],
+    social:    { twitter: "lexai_app", linkedin: "lexai", github: "" },
+    copyright: "",
+  },
+};

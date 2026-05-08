@@ -1,0 +1,8 @@
+[
+  { "icon": "📄", "title": "Contract Analysis", "description": "Upload any contract. LexAI extracts key clauses, obligations, risks and deadlines in seconds. Supports PDF, DOCX and scanned docs." },
+  { "icon": "⚖️", "title": "Case Law Research", "description": "Ask a legal question in plain language. Get citable jurisprudence from Argentina, Chile and Colombia ranked by relevance." },
+  { "icon": "🕐", "title": "Deadline Tracking", "description": "Never miss a filing. LexAI extracts all procedural deadlines from your documents and syncs them to your calendar automatically." },
+  { "icon": "📝", "title": "Brief Drafting", "description": "Generate first drafts of demand letters, responses and memos. Trained on Argentine procedural law. Edit and refine with your voice." },
+  { "icon": "🔒", "title": "Attorney-Client Privilege", "description": "Your documents never train our models. End-to-end encryption, data residency options, and SOC 2 Type II certification." },
+  { "icon": "👥", "title": "Team Collaboration", "description": "Share matter workspaces, assign tasks, and annotate documents together. Track who reviewed what and when." }
+]

@@ -1,0 +1,5 @@
+[
+  { "name": "Solo", "description": "For solo practitioners and small firms.", "monthlyPrice": 49, "annualPrice": 39, "priceNote": "per user / month", "highlighted": false, "features": ["Up to 2 users", "50 document uploads/mo", "Contract analysis", "Deadline tracking", "Email support"], "cta": "Start free trial" },
+  { "name": "Firm", "description": "For growing firms with multiple attorneys.", "monthlyPrice": 129, "annualPrice": 103, "priceNote": "per user / month", "highlighted": true, "badge": "Most popular", "features": ["Unlimited users", "Unlimited documents", "Case law research", "Brief drafting assist", "Team workspaces", "Priority support"], "cta": "Start free trial" },
+  { "name": "Enterprise", "description": "Custom deployment for large law firms.", "monthlyPrice": 299, "annualPrice": 239, "priceNote": "per user / month", "highlighted": false, "features": ["Everything in Firm", "On-premises option", "Custom AI fine-tuning", "SSO / SAML", "Dedicated account manager", "SLA 99.9%"], "cta": "Contact us" }
+]

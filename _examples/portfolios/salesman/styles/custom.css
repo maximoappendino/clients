@@ -1,0 +1,27 @@
+/* ─── MARCUS REID — Dark professional sales portfolio ─── */
+:root { --color-accent: #06b6d4; }
+
+#nav { border-bottom: 1px solid var(--color-border); }
+#nav-name { font-weight: 700; font-size: 15px; letter-spacing: -.3px; }
+
+/* Centered hero — big and confident */
+#hero-name {
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg, #fff 40%, var(--color-accent));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+#hero-title { letter-spacing: 2px; text-transform: uppercase; font-size: 13px; font-weight: 500; }
+#hero-bio { font-size: .95rem; max-width: 500px; }
+
+/* Project cards — metric-driven */
+.project-title { font-weight: 700; font-size: 15px; }
+.project-thumb { border-radius: 4px; }
+.project-card:hover .project-thumb img { transform: scale(1.03); }
+
+/* Cyan accent on filters */
+.filter-btn.active { background: var(--color-accent); border-color: var(--color-accent); color: #000; }
+
+/* Contact */
+.contact-link { border-radius: 4px; font-size: 13px; }

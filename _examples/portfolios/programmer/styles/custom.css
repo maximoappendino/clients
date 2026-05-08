@@ -1,0 +1,33 @@
+/* ─── SOFIA NAKAMURA — Dark dev portfolio with purple accent ─── */
+
+/* Terminal-flavored nav */
+#nav { border-bottom: 1px solid var(--color-border); font-family: 'JetBrains Mono', monospace; }
+#nav-name { font-family: 'JetBrains Mono', monospace; font-size: 14px; }
+#nav-name::before { content: 'sn@dev:~$ '; color: var(--color-accent); }
+#nav-links a { font-family: 'JetBrains Mono', monospace; font-size: 12px; }
+
+/* Hero */
+#hero { background: radial-gradient(ellipse at 50% 0%, rgba(168,85,247,.12) 0%, transparent 70%); }
+#hero-name {
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  font-weight: 700;
+  letter-spacing: -2px;
+  background: linear-gradient(135deg, #fafafa 30%, var(--color-accent) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+#hero-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--color-accent);
+}
+#hero-title::before { content: '// '; opacity: .5; }
+
+/* Project cards */
+.project-title { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 500; }
+.project-meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+.project-card:hover .project-thumb { box-shadow: 0 0 24px rgba(168,85,247,.25); }
+.filter-btn.active { background: var(--color-accent); border-color: var(--color-accent); }
+
+/* Contact */
+.contact-link { border-radius: 6px; }

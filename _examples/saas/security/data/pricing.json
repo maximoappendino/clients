@@ -1,0 +1,5 @@
+[
+  { "name": "Essential", "description": "For small businesses and single locations.", "monthlyPrice": 79, "annualPrice": 59, "priceNote": "up to 10 cameras / month", "highlighted": false, "features": ["Up to 10 cameras", "30-day cloud storage", "AI motion detection", "Push & email alerts", "Mobile app", "Standard support"], "cta": "Start free trial" },
+  { "name": "Business", "description": "For multi-location operations.", "monthlyPrice": 199, "annualPrice": 149, "priceNote": "up to 50 cameras / month", "highlighted": true, "badge": "Most popular", "features": ["Up to 50 cameras", "90-day cloud storage", "Full AI threat detection", "Custom alert rules", "Compliance reports", "API access", "Priority support"], "cta": "Get a demo" },
+  { "name": "Enterprise", "description": "Unlimited scale for large organizations.", "monthlyPrice": 499, "annualPrice": 374, "priceNote": "unlimited cameras / month", "highlighted": false, "features": ["Unlimited cameras", "365-day storage", "On-premises option", "White-label available", "Dedicated security engineer", "SLA 99.97%", "24/7 phone support"], "cta": "Contact us" }
+]

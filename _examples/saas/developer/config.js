@@ -1,0 +1,72 @@
+const CONFIG = {
+  brand: {
+    name:    "Shipfast",
+    tagline: "Deploy anywhere. Break nothing.",
+    logo:    "",
+    favicon: "",
+  },
+  theme: {
+    scheme:      "dark",
+    accentColor:     "#6366f1",
+    accentColorText: "#ffffff",
+    fontImport:  "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    font:        "'Inter', sans-serif",
+    borderRadius: "10px",
+    custom: {},
+  },
+  nav: {
+    links: [
+      { label: "Features",  href: "#features" },
+      { label: "Pricing",   href: "#pricing" },
+      { label: "Docs",      href: "#" },
+      { label: "Changelog", href: "#" },
+    ],
+    ctaPrimary:   { label: "Start shipping",  href: "#pricing" },
+    ctaSecondary: { label: "Sign in",         href: "#" },
+  },
+  hero: {
+    badge:      "v2.0 just shipped",
+    headline:   "Ship code.\nNot YAML files.",
+    subheadline: "Push to deploy. Preview branches. Rollback in one click. Shipfast gets out of your way so you can build.",
+    ctaPrimary:   { label: "Deploy your first app →",  href: "#pricing" },
+    ctaSecondary: { label: "Read the docs",            href: "#" },
+    socialProof:  "4,800 developers ship with Shipfast every week",
+    image:        "",
+  },
+  logos: { show: false, label: "", items: [] },
+  features: {
+    title:    "Everything a team needs to ship fast",
+    subtitle: "No Kubernetes. No AWS console. No 3am incidents.",
+    columns:  3,
+  },
+  howItWorks: {
+    show:     true,
+    title:    "From git push to live URL",
+    subtitle: "Three commands. That's it.",
+  },
+  pricing: {
+    title:          "Pricing that scales with you",
+    subtitle:       "Free tier forever. No credit card to start.",
+    billingToggle:  true,
+    annualDiscount: "Save 20%",
+    currency:       "$",
+    ctaLabel:       "Get started",
+    enterpriseCard: true,
+  },
+  testimonials: { show: true, title: "Used by engineers who ship daily" },
+  faq: { show: true, title: "Frequently asked questions" },
+  cta: {
+    headline: "Your next deploy is 30 seconds away.",
+    subtitle: "Join 4,800 developers. No credit card required.",
+    button:   { label: "Start for free →", href: "#pricing" },
+  },
+  footer: {
+    columns: [
+      { title: "Product",  links: [{ label: "Features", href: "#" }, { label: "Pricing", href: "#" }, { label: "Changelog", href: "#" }, { label: "Roadmap", href: "#" }] },
+      { title: "Developers", links: [{ label: "Docs", href: "#" }, { label: "API", href: "#" }, { label: "CLI Reference", href: "#" }, { label: "GitHub", href: "#" }] },
+      { title: "Company",  links: [{ label: "About", href: "#" }, { label: "Blog", href: "#" }, { label: "Privacy", href: "#" }] },
+    ],
+    social:    { twitter: "shipfast_dev", linkedin: "", github: "shipfast" },
+    copyright: "",
+  },
+};

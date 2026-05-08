@@ -1,0 +1,5 @@
+[
+  { "step": "01", "title": "shipfast init", "description": "Run one command. Shipfast detects your stack, creates a Dockerfile if needed, and sets up the deploy pipeline." },
+  { "step": "02", "title": "git push", "description": "Push to your branch. A preview URL appears in your PR in 90 seconds. Your team can review on the real environment." },
+  { "step": "03", "title": "Merge → Live", "description": "Merge to main and your app is live globally. Logs and metrics available immediately. Rollback in one click if needed." }
+]

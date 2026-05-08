@@ -116,12 +116,14 @@
   let allProducts = [];
   let activeCategory = CONFIG.catalog.defaultCategory;
   let searchQuery = '';
+  let activeSort = CONFIG.catalog.defaultSort || 'featured';
 
   async function loadProducts() {
     const res = await fetch('data/products.json');
     allProducts = await res.json();
     Cart.setProducts(allProducts);
     buildCategories();
+    buildSort();
     renderProducts();
   }
 
@@ -141,12 +143,44 @@
     });
   }
 
+  function buildSort() {
+    const select = document.getElementById('sort-select');
+    if (!CONFIG.catalog.showSort) { select.style.display = 'none'; return; }
+    const options = [
+      { value: 'featured',   label: 'Destacados' },
+      { value: 'name-asc',   label: 'Nombre: A → Z' },
+      { value: 'name-desc',  label: 'Nombre: Z → A' },
+      { value: 'price-asc',  label: 'Precio: menor primero' },
+      { value: 'price-desc', label: 'Precio: mayor primero' },
+      { value: 'category',   label: 'Categoría' },
+    ];
+    select.innerHTML = options.map(o =>
+      `<option value="${o.value}"${o.value === activeSort ? ' selected' : ''}>${o.label}</option>`
+    ).join('');
+    select.addEventListener('change', () => {
+      activeSort = select.value;
+      renderProducts();
+    });
+  }
+
+  function getSorted(products) {
+    const sorted = [...products];
+    switch (activeSort) {
+      case 'name-asc':   return sorted.sort((a, b) => a.name.localeCompare(b.name, 'es'));
+      case 'name-desc':  return sorted.sort((a, b) => b.name.localeCompare(a.name, 'es'));
+      case 'price-asc':  return sorted.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+      case 'price-desc': return sorted.sort((a, b) => (b.price ?? -Infinity) - (a.price ?? -Infinity));
+      case 'category':   return sorted.sort((a, b) => (a.category || '').localeCompare(b.category || '', 'es'));
+      default:           return sorted.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+    }
+  }
+
   function getFiltered() {
     return allProducts.filter(p => {
-      const matchCat  = activeCategory === CONFIG.catalog.defaultCategory || p.category === activeCategory;
+      const matchCat    = activeCategory === CONFIG.catalog.defaultCategory || p.category === activeCategory;
       const matchSearch = !searchQuery || p.name.toLowerCase().includes(searchQuery) ||
                           (p.description || '').toLowerCase().includes(searchQuery);
-      const matchStock = CONFIG.catalog.showOutOfStock || p.stock !== 0;
+      const matchStock  = CONFIG.catalog.showOutOfStock || p.stock !== 0;
       return matchCat && matchSearch && matchStock;
     });
   }
@@ -158,7 +192,7 @@
 
   function renderProducts() {
     const grid = document.getElementById('products-grid');
-    const filtered = getFiltered();
+    const filtered = getSorted(getFiltered());
     const empty = document.getElementById('empty-state');
 
     if (!filtered.length) {
@@ -222,17 +256,41 @@
     }
   });
 
+  /* ── Carousel ──────────────────────────────────────────────────────────── */
+  function buildCarousel(container, images, altText) {
+    if (!images || images.length === 0) { container.innerHTML = ''; return; }
+    if (images.length === 1) {
+      container.innerHTML = `<img src="${images[0]}" alt="${altText}">`;
+      return;
+    }
+    let idx = 0;
+    container.innerHTML = `
+      <div class="carousel">
+        <div class="carousel-track">${images.map(src => `<img src="${src}" alt="${altText}" loading="lazy">`).join('')}</div>
+        <button class="carousel-btn prev" aria-label="Anterior">&#8249;</button>
+        <button class="carousel-btn next" aria-label="Siguiente">&#8250;</button>
+        <div class="carousel-dots">${images.map((_, i) => `<span class="carousel-dot${i === 0 ? ' active' : ''}"></span>`).join('')}</div>
+      </div>`;
+    const track = container.querySelector('.carousel-track');
+    const dots  = container.querySelectorAll('.carousel-dot');
+    function go(n) {
+      idx = (n + images.length) % images.length;
+      track.style.transform = `translateX(-${idx * 100}%)`;
+      dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    }
+    container.querySelector('.prev').addEventListener('click', () => go(idx - 1));
+    container.querySelector('.next').addEventListener('click', () => go(idx + 1));
+    dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+  }
+
   /* ── Modal ─────────────────────────────────────────────────────────────── */
   function openModal(id) {
     const p = allProducts.find(p => p.id === id);
     if (!p) return;
-    const img   = p.images?.[0] || '';
     const price = formatPrice(p.price);
     const inStock = p.stock == null || p.stock > 0;
 
-    document.getElementById('modal-img').innerHTML = img
-      ? `<img src="${img}" alt="${p.name}">`
-      : '';
+    buildCarousel(document.getElementById('modal-img'), p.images || [], p.name);
     document.getElementById('modal-category').textContent   = p.category || '';
     document.getElementById('modal-name').textContent       = p.name;
     document.getElementById('modal-price').textContent      = price || 'Consultar precio';
@@ -271,8 +329,71 @@
     toastTimer = setTimeout(() => el.classList.remove('show'), 2200);
   }
 
+  /* ── Promo bridge ──────────────────────────────────────────────────────── */
+  function buildPromo() {
+    const cfg = CONFIG.promo;
+    const section = document.getElementById('promo');
+    if (!cfg || !cfg.show || !cfg.items?.length) { section.style.display = 'none'; return; }
+
+    const headingEl = document.getElementById('promo-heading');
+    if (cfg.heading) { headingEl.textContent = cfg.heading; }
+    else { headingEl.style.display = 'none'; }
+
+    const layout = cfg.layout || 'cards';
+    const container = document.getElementById('promo-items');
+    container.className = `layout-${layout}`;
+
+    if (layout === 'alternating') {
+      container.innerHTML = cfg.items.map((item, i) => `
+        <div class="promo-block${i % 2 === 1 ? ' reverse' : ''}">
+          <div class="promo-block-img">
+            ${item.image ? `<img src="${item.image}" alt="${item.title || ''}">` : ''}
+          </div>
+          <div class="promo-block-body">
+            ${item.label ? `<p class="promo-label">${item.label}</p>` : ''}
+            ${item.title ? `<h3 class="promo-title">${item.title}</h3>` : ''}
+            ${item.text  ? `<p class="promo-text">${item.text}</p>`   : ''}
+            ${item.cta   ? `<a class="promo-cta" href="${item.ctaUrl || '#catalog'}">${item.cta}</a>` : ''}
+          </div>
+        </div>`).join('');
+    } else {
+      container.innerHTML = cfg.items.map(item => `
+        <div class="promo-card">
+          ${item.image ? `<div class="promo-card-img"><img src="${item.image}" alt="${item.title || ''}"></div>` : ''}
+          <div class="promo-card-body">
+            ${item.label ? `<p class="promo-label">${item.label}</p>` : ''}
+            ${item.title ? `<h3 class="promo-title">${item.title}</h3>` : ''}
+            ${item.text  ? `<p class="promo-text">${item.text}</p>`   : ''}
+            ${item.cta   ? `<a class="promo-cta" href="${item.ctaUrl || '#catalog'}">${item.cta}</a>` : ''}
+          </div>
+        </div>`).join('');
+    }
+  }
+
+  /* ── Announcement ─────────────────────────────────────────────────────── */
+  function buildAnnouncement() {
+    const cfg = CONFIG.announcement;
+    const section = document.getElementById('announcement');
+    if (!cfg || !cfg.show) { section.style.display = 'none'; return; }
+
+    const itemsEl = document.getElementById('announcement-items');
+    itemsEl.innerHTML = (cfg.items || []).map(item => `
+      <div class="announcement-item">
+        ${item.icon ? `<span class="announcement-icon">${item.icon}</span>` : ''}
+        <div class="announcement-body">
+          ${item.title ? `<p class="announcement-title">${item.title}</p>` : ''}
+          ${item.text  ? `<p class="announcement-text">${item.text}</p>`   : ''}
+        </div>
+      </div>`).join('');
+
+    const noteEl = document.getElementById('announcement-note');
+    noteEl.innerHTML = cfg.note || '';
+  }
+
   /* ── Init ──────────────────────────────────────────────────────────────── */
   applyTheme();
   populateStatic();
+  buildPromo();
+  buildAnnouncement();
   loadProducts();
 })();

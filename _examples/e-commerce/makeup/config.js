@@ -1,0 +1,88 @@
+const CONFIG = {
+  store: {
+    name:    "PLUME",
+    tagline: "Beauty, curated.",
+    logo:    "",
+    favicon: "",
+    currency: "ARS",
+    currencySymbol: "$",
+    locale: "es-AR",
+  },
+  whatsapp: {
+    number:  "+5491155550003",
+    greeting: "Hola PLUME 🌸 Me gustaría hacer el siguiente pedido:\n\n",
+    footer:   "\n\n¿Tienen envío express?",
+    floatingButton: true,
+    checkoutButton: true,
+  },
+  theme: {
+    scheme: "custom",
+    custom: {
+      "--color-bg":         "#fdf8f4",
+      "--color-surface":    "#f7f0e8",
+      "--color-border":     "#ecddd0",
+      "--color-text":       "#2c1f14",
+      "--color-text-muted": "#9a7d6a",
+      "--color-primary":    "#2c1f14",
+      "--color-accent":     "#c9956b",
+    },
+    fontImport: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap",
+    font:        "'Jost', sans-serif",
+    fontHeading: "'Cormorant Garamond', serif",
+    borderRadius: "2px",
+  },
+  hero: {
+    show: true,
+    title: "La belleza es\nun punto de vista.",
+    subtitle: "Maquillaje y skincare de selección. Marcas independientes con historia.",
+    image: "",
+    cta: "Explorar colección",
+    ctaScroll: true,
+  },
+  nav: { showSearch: true, showCart: true, sticky: true },
+  catalog: {
+    showCategories: true, showSearch: false, defaultCategory: "All",
+    productsPerRow: 3, showOutOfStock: false, outOfStockLabel: "Agotado",
+    addToCartLabel: "Agregar", showPriceOnCard: true,
+    showSort: true, defaultSort: "category",
+  },
+  promo: {
+    show: true,
+    layout: "alternating",
+    heading: "",
+    items: [
+      {
+        image:  "https://placehold.co/800x600/f7f0e8/c9956b?text=SKINCARE",
+        label:  "Ritual diario",
+        title:  "La piel, primero.",
+        text:   "Formulaciones sin parabenos ni fragancias sintéticas. Ingredientes de origen botánico para una rutina consciente que nutre sin comprometer.",
+        cta:    "Explorar skincare",
+        ctaUrl: "#catalog",
+      },
+      {
+        image:  "https://placehold.co/800x600/f7f0e8/c9956b?text=COLOR",
+        label:  "Colección permanente",
+        title:  "Color con propósito.",
+        text:   "Alta pigmentación, larga duración, fórmulas 100% veganas. Porque la belleza no debería costar el planeta ni tu bienestar.",
+        cta:    "Ver maquillaje",
+        ctaUrl: "#catalog",
+      },
+    ],
+  },
+
+  announcement: {
+    show: true,
+    items: [
+      { icon: "🌿", title: "Clean beauty",         text: "Sin parabenos, sin fragancia sintética. Formulaciones conscientes." },
+      { icon: "📦", title: "Packaging premium",    text: "Cada pedido llega en caja con papel tissue y tarjeta manuscrita." },
+      { icon: "↩️", title: "Devolución gratuita",  text: "Si no es lo que esperabas, te devolvemos el dinero sin costo." },
+    ],
+    note: "Todos los productos son veganos y cruelty-free. Resultados pueden variar según tipo de piel.",
+  },
+  cart: { persist: true, shippingNote: "Envío en packaging premium. Entrega 48–72hs." },
+  footer: {
+    show: true,
+    text: "",
+    social: { instagram: "plume.beauty", facebook: "", tiktok: "plume.beauty" },
+  },
+};

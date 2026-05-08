@@ -1,0 +1,5 @@
+[
+  { "step": "01", "title": "Upload your documents", "description": "Drag and drop contracts, briefs, or case files. PDF, DOCX, scanned images — we handle them all." },
+  { "step": "02", "title": "Ask anything", "description": "Type your question in plain Spanish. 'What are the termination clauses?' — 'Is there a penalty for late payment?'" },
+  { "step": "03", "title": "Get citable answers", "description": "LexAI responds with the relevant excerpt, page number, and source document. Copy directly into your brief." }
+]

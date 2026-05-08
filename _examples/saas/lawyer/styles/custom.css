@@ -1,0 +1,43 @@
+/* ─── LEXAI — Dark premium legal SaaS with gold accent ─── */
+
+/* Gold glow radial on hero */
+#hero::before {
+  background: radial-gradient(ellipse at 50% 0%,
+    rgba(201,168,76,.14) 0%,
+    transparent 65%
+  );
+}
+
+/* Gold gradient on headline */
+#hero-h1 {
+  background: linear-gradient(160deg, #fff 30%, #c9a84c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Badge with gold border */
+#hero-badge {
+  border-color: rgba(201,168,76,.5);
+  background: rgba(201,168,76,.08);
+  color: #c9a84c;
+}
+
+/* Feature grid — subtle gold on icon */
+.feature-icon { color: #c9a84c; }
+.feature-card:hover { background: color-mix(in srgb, #c9a84c 4%, var(--color-bg)); }
+
+/* Bottom CTA gold radial */
+#bottom-cta::before {
+  background: radial-gradient(ellipse at center,
+    rgba(201,168,76,.12) 0%,
+    transparent 65%
+  );
+}
+
+/* Gold gradient border on highlighted pricing card */
+.pricing-card.highlighted {
+  border-color: #c9a84c;
+  background: color-mix(in srgb, #c9a84c 5%, var(--color-surface));
+}
+.plan-badge { background: #c9a84c; color: #0d0a00; }

@@ -1,0 +1,5 @@
+[
+  { "step": "01", "title": "Connect your cameras", "description": "Add your camera IPs in the dashboard. Sentinel connects via RTSP or ONVIF. Compatible with 200+ brands." },
+  { "step": "02", "title": "Set your rules", "description": "Define alert zones, working hours, and threat sensitivity per camera. Takes 10 minutes per location." },
+  { "step": "03", "title": "Monitor in real time", "description": "Watch your dashboard go live. AI starts analyzing immediately. First alert within minutes of setup." }
+]

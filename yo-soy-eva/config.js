@@ -7,8 +7,8 @@ const CONFIG = {
   store: {
     name:    "Yo Soy Eva",
     tagline: "Cremas Alucinantes",
-    logo:    "./img/lego.png",           // path to logo image, or "" to use text
-    favicon: "./img/lego.png",           // path to favicon
+    logo:    "./img/logo.webp",           // path to logo image, or "" to use text
+    favicon: "./img/logo.webp",           // path to favicon
     currency:       "ARS", // shown in metadata
     currencySymbol: "$",   // shown on prices
     locale:         "es-AR",
@@ -49,7 +49,7 @@ const CONFIG = {
     show:     true,
     title:    "Nueva Colección",
     subtitle: "Descubrí los últimos estilos",
-    image:    "",          // path to hero image, or "" for color background
+    image:    "./img/carrousel1.webp",          // path to hero image, or "" for color background
     cta:      "Ver Catálogo",
     ctaScroll: true,       // scroll to products on CTA click
   },
@@ -71,6 +71,42 @@ const CONFIG = {
     outOfStockLabel:   "Sin stock",
     addToCartLabel:    "Agregar",
     showPriceOnCard:   true,
+    showSort:          true,
+    defaultSort:       "featured",  // "featured"|"name-asc"|"name-desc"|"price-asc"|"price-desc"|"category"
+  },
+
+  promo: {
+    show: true,
+    layout: "alternating",
+    heading: "",
+    items: [
+      {
+        image:  "./img/carrousel1.webp",
+        label:  "Cómo usar",
+        title:  "Tu ritual de cuidado diario",
+        text:   "Aplicá una pequeña cantidad en la piel limpia y masajeá en movimientos circulares hasta absorber. Usá mañana y noche para mejores resultados.",
+        cta:    "",
+        ctaUrl: "",
+      },
+      {
+        image:  "./img/carrousel2.webp",
+        label:  "Temporada de frío",
+        title:  "Protección extra para el invierno",
+        text:   "Las bajas temperaturas resecan la piel. Nuestras cremas forman una barrera protectora que nutre en profundidad y mantiene la hidratación por horas.",
+        cta:    "Ver cremas",
+        ctaUrl: "#catalog",
+      },
+    ],
+  },
+
+  announcement: {
+    show: true,
+    items: [
+      { icon: "🚚", title: "Envío a todo el país", text: "Coordinamos por WhatsApp." },
+      { icon: "✅", title: "Garantía",              text: "30 días desde la compra." },
+      { icon: "💬", title: "Atención al cliente",   text: "Lunes a viernes de 9 a 18hs." },
+    ],
+    note: "",
   },
 
   /* ── Cart ─────────────────────────────────────────────── */

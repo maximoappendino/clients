@@ -1,0 +1,78 @@
+const CONFIG = {
+  brand: {
+    name:    "Sentinel",
+    tagline: "AI-powered security monitoring.",
+    logo:    "",
+    favicon: "",
+  },
+  theme: {
+    scheme:      "custom",
+    accentColor:     "#ef4444",
+    accentColorText: "#ffffff",
+    custom: {
+      "--color-bg":         "#060608",
+      "--color-surface":    "#0c0d10",
+      "--color-surface-2":  "#12131a",
+      "--color-border":     "#1a1b24",
+      "--color-text":       "#e8eaf0",
+      "--color-text-muted": "#6b7280",
+    },
+    fontImport:  "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+    font:        "'Inter', sans-serif",
+    borderRadius: "6px",
+  },
+  nav: {
+    links: [
+      { label: "Platform",  href: "#features" },
+      { label: "Pricing",   href: "#pricing" },
+      { label: "Customers", href: "#testimonials" },
+    ],
+    ctaPrimary:   { label: "Get a demo",  href: "#pricing" },
+    ctaSecondary: { label: "Sign in",     href: "#" },
+  },
+  hero: {
+    badge:      "AI-powered • Real-time • 99.97% uptime",
+    headline:   "Every camera.\nOne command center.",
+    subheadline: "Sentinel unifies your entire camera network with AI that detects threats, sends instant alerts, and generates compliance reports automatically.",
+    ctaPrimary:   { label: "Request a demo →",  href: "#pricing" },
+    ctaSecondary: { label: "See it in action",  href: "#" },
+    socialProof:  "Protecting 2,000+ locations across 14 countries",
+    image:        "",
+  },
+  logos: { show: false, label: "", items: [] },
+  features: {
+    title:    "The security platform your team will actually use",
+    subtitle: "Built for operations managers who need control, not complexity.",
+    columns:  3,
+  },
+  howItWorks: {
+    show:     true,
+    title:    "Live in 48 hours. Secure forever.",
+    subtitle: "",
+  },
+  pricing: {
+    title:          "Simple, predictable pricing",
+    subtitle:       "Based on number of cameras. No hidden fees.",
+    billingToggle:  true,
+    annualDiscount: "Save 25%",
+    currency:       "$",
+    ctaLabel:       "Get started",
+    enterpriseCard: true,
+  },
+  testimonials: { show: true, title: "Trusted by security professionals" },
+  faq: { show: true, title: "Common questions" },
+  cta: {
+    headline: "See every threat before it becomes a problem.",
+    subtitle: "Request a live demo with one of our security specialists.",
+    button:   { label: "Request a demo →", href: "#pricing" },
+  },
+  footer: {
+    columns: [
+      { title: "Platform", links: [{ label: "Features", href: "#" }, { label: "Integrations", href: "#" }, { label: "Security", href: "#" }] },
+      { title: "Company",  links: [{ label: "About", href: "#" }, { label: "Customers", href: "#" }, { label: "Careers", href: "#" }] },
+      { title: "Legal",    links: [{ label: "Privacy", href: "#" }, { label: "Terms", href: "#" }, { label: "Compliance", href: "#" }] },
+    ],
+    social:    { twitter: "sentinel_sec", linkedin: "sentinel-security", github: "" },
+    copyright: "",
+  },
+};

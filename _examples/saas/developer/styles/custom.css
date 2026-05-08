@@ -1,0 +1,61 @@
+/* ─── SHIPFAST — Indigo developer SaaS, composio.dev / runlayer-inspired ─── */
+
+/* Indigo glow hero */
+#hero::before {
+  background: radial-gradient(ellipse at 50% -10%,
+    rgba(99,102,241,.22) 0%,
+    transparent 60%
+  );
+}
+
+/* Gradient headline */
+#hero-h1 {
+  background: linear-gradient(160deg, #fff 20%, #818cf8 80%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: pre-line;
+}
+
+/* Badge */
+#hero-badge {
+  border-color: rgba(99,102,241,.5);
+  background: rgba(99,102,241,.1);
+  color: #818cf8;
+}
+
+/* Feature cards — gradient border on hover */
+.feature-card {
+  transition: background .2s;
+  position: relative;
+}
+.feature-card::after {
+  content: '';
+  position: absolute; inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(99,102,241,.15) 0%, transparent 60%);
+  opacity: 0;
+  transition: opacity .25s;
+  pointer-events: none;
+}
+.feature-card:hover::after { opacity: 1; }
+
+/* Monospace code-style features title */
+.feature-title { font-family: 'Fira Code', 'JetBrains Mono', monospace; font-size: 13px; }
+.feature-icon { font-size: 22px; }
+
+/* Glowing highlighted pricing */
+.pricing-card.highlighted {
+  box-shadow: 0 0 40px rgba(99,102,241,.2);
+}
+
+/* Bottom CTA */
+#bottom-cta::before {
+  background: radial-gradient(ellipse at center,
+    rgba(99,102,241,.18) 0%,
+    transparent 65%
+  );
+}
+
+/* Step numbers indigo */
+.step-number { border-color: rgba(99,102,241,.4); color: #818cf8; }

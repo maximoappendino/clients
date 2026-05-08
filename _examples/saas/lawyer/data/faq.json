@@ -1,0 +1,7 @@
+[
+  { "question": "Is my client data safe?", "answer": "Absolutely. Your documents are encrypted at rest and in transit. They are never used to train any AI model. We offer data residency in Argentina and comply with Ley 25.326 de Protección de Datos Personales." },
+  { "question": "What jurisdictions does LexAI cover?", "answer": "Currently Argentina (federal and provincial), Chile, and Colombia. Uruguay and Peru are in beta. We prioritize LATAM civil law and commercial legislation." },
+  { "question": "Can LexAI replace a lawyer?", "answer": "No — and it's not designed to. LexAI is a research and drafting assistant that accelerates your work. All outputs should be reviewed by a qualified attorney before use." },
+  { "question": "Does it work with scanned documents?", "answer": "Yes. LexAI uses OCR to process scanned PDFs and even photos of documents. Accuracy is best with clearly scanned documents at 300 DPI or higher." },
+  { "question": "Can I try it before paying?", "answer": "Yes. All plans start with a 14-day free trial. No credit card required. If you'd prefer a guided demo with your own documents, book a 20-minute session with our team." }
+]

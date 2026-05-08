@@ -1,0 +1,5 @@
+[
+  { "name": "Hobby", "description": "For personal projects and experiments.", "monthlyPrice": 0, "annualPrice": 0, "priceNote": "Free forever", "highlighted": false, "features": ["3 apps", "1 region", "512MB RAM per app", "Shared CPU", "Community support"], "cta": "Deploy now" },
+  { "name": "Pro", "description": "For teams that ship real products.", "monthlyPrice": 19, "annualPrice": 15, "priceNote": "per app / month", "highlighted": true, "badge": "Most popular", "features": ["Unlimited apps", "3 regions", "2GB RAM per app", "Dedicated CPU", "Preview branches", "Priority support", "Custom domains"], "cta": "Start free trial" },
+  { "name": "Scale", "description": "For high-traffic production workloads.", "monthlyPrice": 69, "annualPrice": 55, "priceNote": "per app / month", "highlighted": false, "features": ["Everything in Pro", "Auto-scaling", "Multi-region failover", "Advanced observability", "Dedicated support channel", "SLA 99.95%"], "cta": "Start free trial" }
+]

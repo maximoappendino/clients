@@ -1,0 +1,51 @@
+/* ─── LOUDBOX — Dark editorial music magazine ─── */
+:root {
+  --color-accent: #dc2626;
+}
+
+/* Brutalist nav */
+#nav { border-bottom: 3px solid var(--color-accent); }
+#nav-logo {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* Red underline on active category */
+#nav-cats a.active {
+  border-bottom-color: var(--color-accent);
+  color: #fff;
+}
+
+/* Hero — large editorial */
+#hero-post { background: #000; }
+#hero-thumb img { filter: contrast(1.1) saturate(1.2); }
+#hero-cat {
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+#hero-title {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Post cards */
+.post-cat { color: var(--color-accent); }
+.post-title {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+.post-meta { font-family: 'Space Mono', monospace; font-size: 11px; }
+
+/* Footer red bar */
+#footer { border-top: 3px solid var(--color-accent); }

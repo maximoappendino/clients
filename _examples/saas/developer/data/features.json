@@ -1,0 +1,8 @@
+[
+  { "icon": "🚀", "title": "Push to deploy", "description": "Connect your GitHub or GitLab repo. Every push to main deploys automatically. Every PR gets a preview URL. Zero config." },
+  { "icon": "🔀", "title": "Branch previews", "description": "Every branch gets its own live environment. Share the URL with your team, client, or QA. Deleted automatically when the branch is merged." },
+  { "icon": "⏪", "title": "One-click rollback", "description": "Something broke in production? Roll back to any previous deploy instantly. No SSH, no commands, no stress." },
+  { "icon": "📊", "title": "Built-in observability", "description": "Logs, metrics, and traces in one place. No Datadog tax. Filter by deploy, by service, by time range." },
+  { "icon": "🔧", "title": "Any stack", "description": "Node, Go, Python, Ruby, Rust, static sites. If it runs in Docker, it deploys on Shipfast. Bring your own Dockerfile or use ours." },
+  { "icon": "🌍", "title": "Multi-region", "description": "Deploy to São Paulo, New York, Frankfurt or Tokyo. Failover routing included. CDN edge caching for static assets." }
+]

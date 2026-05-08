@@ -1,0 +1,7 @@
+[
+  { "question": "What stacks does Shipfast support?", "answer": "Any stack that runs in Docker. We have zero-config builders for Node.js, Python, Go, Ruby, Rust, PHP, and static sites. Bring your own Dockerfile for anything else." },
+  { "question": "How is this different from Heroku or Railway?", "answer": "Shipfast is ~60% cheaper at scale, deploys faster (90s vs 4-8 min), and gives you more control over your infrastructure without requiring ops knowledge." },
+  { "question": "Can I use my own domain?", "answer": "Yes. Add a custom domain in one click. Automatic SSL certificate via Let's Encrypt. Subdomain routing for multiple apps on the same domain." },
+  { "question": "Where are the servers?", "answer": "We run on Hetzner datacenters in São Paulo, New York, Frankfurt, and Tokyo. You choose the region per app. Multi-region failover is available on Scale plans." },
+  { "question": "What happens if I exceed my plan limits?", "answer": "We'll notify you before you hit the limit. We never cut your app without warning. Overages are billed at a transparent per-unit rate, shown in your dashboard." }
+]

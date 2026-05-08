@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="../../../_templates/blog/styles/main.css">
+  <link rel="stylesheet" href="../../_shared/animations.css">
+  <link rel="stylesheet" href="styles/custom.css">
+</head>
+<body>
+  <nav id="nav">
+    <span id="nav-logo"></span>
+    <div id="nav-cats"></div>
+    <div id="nav-search">
+      <input id="search-input" type="search" placeholder="Buscar…" autocomplete="off">
+    </div>
+  </nav>
+  <section id="hero-post">
+    <div id="hero-thumb"></div>
+    <div id="hero-text">
+      <p id="hero-cat"></p>
+      <h1 id="hero-title"></h1>
+      <p id="hero-excerpt"></p>
+      <p id="hero-meta"></p>
+    </div>
+  </section>
+  <section id="posts-section">
+    <div id="posts-grid"></div>
+  </section>
+  <footer id="footer">
+    <div id="footer-social"></div>
+    <p id="footer-text"></p>
+  </footer>
+  <div id="post-overlay">
+    <span id="post-close">×</span>
+    <div id="post-modal">
+      <div id="post-modal-img"></div>
+      <div id="post-modal-body">
+        <p id="post-modal-cat"></p>
+        <h1 id="post-modal-title"></h1>
+        <p id="post-modal-meta"></p>
+        <div id="post-modal-content"></div>
+      </div>
+    </div>
+  </div>
+  <script src="config.js"></script>
+  <script src="../../../_templates/blog/scripts/app.js"></script>
+  <script src="../../_shared/animations.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+[
+  { "icon": "🎯", "title": "AI Threat Detection", "description": "Our computer vision model detects unauthorized access, unusual behavior, and perimeter breaches in real time — before your guard looks up." },
+  { "icon": "📹", "title": "Unlimited Cameras", "description": "Connect any IP camera brand. RTSP, ONVIF, HTTP streams. Sentinel unifies everything in one dashboard regardless of manufacturer." },
+  { "icon": "🚨", "title": "Instant Alerts", "description": "Push notifications, SMS and email the moment an event is detected. Custom escalation rules per location, per shift, per risk level." },
+  { "icon": "🗂️", "title": "Compliance Reports", "description": "Auto-generated reports for audits, insurance and regulatory requirements. Exportable in PDF. Tamper-proof event log." },
+  { "icon": "🔍", "title": "Forensic Search", "description": "Search 90 days of footage by event type, time, or location in seconds. Find the clip you need in seconds, not hours." },
+  { "icon": "📱", "title": "Mobile Command Center", "description": "Full control from your phone. Watch live feeds, review alerts, and dispatch guards from anywhere with the Sentinel app." }
+]

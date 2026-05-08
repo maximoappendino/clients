@@ -1,0 +1,7 @@
+[
+  { "question": "What cameras are compatible?", "answer": "Any IP camera that supports RTSP or ONVIF. We've been tested with Hikvision, Dahua, Axis, Bosch, Hanwha, and 200+ other brands. Analog cameras require a compatible NVR/DVR." },
+  { "question": "Where is video footage stored?", "answer": "By default, footage is stored in encrypted cloud storage in Argentina. Enterprise customers can choose on-premises storage or a hybrid approach." },
+  { "question": "How fast are alerts?", "answer": "Alert delivery (push, SMS, email) averages under 8 seconds from the time of detection. AI analysis happens on-edge for most events, reducing latency." },
+  { "question": "What about false alarms?", "answer": "Our AI has a 97.3% precision rate on threat detection. You can tune sensitivity per zone and per camera. Most customers reduce false alarm rates by 80%+ compared to motion-only detection." },
+  { "question": "Can I integrate with my existing security system?", "answer": "Yes. Sentinel has a REST API and supports integration with access control systems, alarm panels, and guard dispatch software. Contact us for enterprise integrations." }
+]

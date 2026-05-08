@@ -1,0 +1,56 @@
+/* ─── ship.log — Terminal devlog ─── */
+:root { --color-accent: #22c55e; }
+
+/* Terminal nav */
+#nav {
+  font-family: 'JetBrains Mono', monospace;
+  border-bottom: 1px solid var(--color-border);
+}
+#nav-logo {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+}
+#nav-logo::before { content: '> '; color: var(--color-accent); }
+
+/* Category pills terminal-style */
+#nav-cats a {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+#nav-cats a.active { border-bottom-color: var(--color-accent); color: var(--color-accent); }
+
+/* Hero */
+#hero-post { background: var(--color-surface); }
+#hero-cat {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: .5px;
+  color: var(--color-accent);
+}
+#hero-cat::before { content: '# '; }
+#hero-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: clamp(1.4rem, 3.5vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+#hero-meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--color-accent); }
+#hero-meta::before { content: '// '; opacity: .5; }
+
+/* Post cards */
+.post-title { font-family: 'JetBrains Mono', monospace; font-size: .95rem; line-height: 1.4; }
+.post-cat { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: .5px; }
+.post-cat::before { content: '['; color: var(--color-accent); }
+.post-cat::after  { content: ']'; color: var(--color-accent); }
+.post-meta { font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+.post-meta::before { content: '$ '; color: var(--color-accent); }
+.post-thumb { border: 1px solid var(--color-border); }
+
+/* Green glow on hover */
+.post-card:hover { box-shadow: 0 0 20px color-mix(in srgb, var(--color-accent) 15%, transparent); }
+
+/* Footer */
+#footer { font-family: 'JetBrains Mono', monospace; font-size: 12px; }

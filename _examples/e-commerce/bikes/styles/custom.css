@@ -1,0 +1,48 @@
+/* ─── VELOCE — Dark sporty bike shop ─── */
+
+/* Hero diagonal clip */
+#hero {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  padding-bottom: 100px;
+  background: linear-gradient(135deg, #0d0d0d 60%, #1a0d00 100%);
+}
+
+/* Bold condensed hero text */
+#hero-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+#hero-subtitle { font-size: .95rem; }
+#hero-cta {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
+/* Nav orange bar */
+#nav { border-bottom: 2px solid var(--color-accent); }
+#nav-logo {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Product cards */
+.product-name { font-family: 'Barlow Condensed', sans-serif; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: .5px; }
+.product-price { color: var(--color-accent); font-weight: 700; }
+.product-category { letter-spacing: 2px; font-size: 10px; }
+
+/* Orange glow on card hover */
+.product-card:hover { box-shadow: 0 8px 32px rgba(249,115,22,.2); }
+
+/* Category filter orange */
+.cat-btn.active { background: var(--color-accent); border-color: var(--color-accent); color: #000; font-weight: 700; }

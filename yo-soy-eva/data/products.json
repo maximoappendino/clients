@@ -1,17 +1,5 @@
 [
   {
-    "id": "sample-001",
-    "name": "Producto de Ejemplo",
-    "price": 9999,
-    "category": "General",
-    "description": "Descripción del producto.",
-    "images": [
-      "catalog/sample.jpg"
-    ],
-    "stock": 0,
-    "featured": true
-  },
-  {
     "id": "deo-16000-crema",
     "name": "Deo",
     "price": 16000,
@@ -19,6 +7,138 @@
     "description": "",
     "images": [
       "catalog/deo_16000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "chakra-20000-perfume",
+    "name": "Chakra",
+    "price": 20000,
+    "category": "Perfume",
+    "description": "",
+    "images": [
+      "catalog/chakra_20000_perfume.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "lavanda-13300-oleo",
+    "name": "Lavanda",
+    "price": 13300,
+    "category": "Oleo",
+    "description": "",
+    "images": [
+      "catalog/lavanda_13300_oleo.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "magnesense-16000-crema",
+    "name": "Magnesense",
+    "price": 16000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/magnesense_16000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "balance-25000-crema",
+    "name": "Balance",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/balance_25000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "calm-25000-crema",
+    "name": "Calm",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/calm_25000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "dent-16000-otros",
+    "name": "Dent",
+    "price": 16000,
+    "category": "Otros",
+    "description": "",
+    "images": [
+      "catalog/dent_16000_otros.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "nuva-25000-crema",
+    "name": "Nuva",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/nuva_25000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "renew-25000-crema",
+    "name": "Renew",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/renew_25000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "scrub-25000-crema",
+    "name": "Scrub",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/scrub_25000_crema.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "solar-27000-otros",
+    "name": "Solar",
+    "price": 27000,
+    "category": "Otros",
+    "description": "",
+    "images": [
+      "catalog/solar_27000_otros.webp"
+    ],
+    "stock": null,
+    "featured": false
+  },
+  {
+    "id": "velvet-25000-crema",
+    "name": "Velvet",
+    "price": 25000,
+    "category": "Crema",
+    "description": "",
+    "images": [
+      "catalog/velvet_25000_crema.webp"
     ],
     "stock": null,
     "featured": false

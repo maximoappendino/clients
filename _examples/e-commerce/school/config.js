@@ -1,0 +1,93 @@
+const CONFIG = {
+  store: {
+    name:    "Papelería Koala",
+    tagline: "Todo lo que necesitás para crear.",
+    logo:    "",
+    favicon: "",
+    currency: "ARS",
+    currencySymbol: "$",
+    locale: "es-AR",
+  },
+  whatsapp: {
+    number:  "+5491155550002",
+    greeting: "¡Hola Koala! 🐨 Me gustaría hacer este pedido:\n\n",
+    footer:   "\n\n¿Pueden confirmar si tienen stock?",
+    floatingButton: true,
+    checkoutButton: true,
+  },
+  theme: {
+    scheme: "custom",
+    custom: {
+      "--color-bg":         "#fdfbff",
+      "--color-surface":    "#f3f0ff",
+      "--color-border":     "#e4dfff",
+      "--color-text":       "#1e1433",
+      "--color-text-muted": "#7c6fa0",
+      "--color-primary":    "#7c3aed",
+      "--color-accent":     "#8b5cf6",
+    },
+    fontImport: "https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap",
+    font:        "'Nunito', sans-serif",
+    fontHeading: "'Nunito', sans-serif",
+    borderRadius: "16px",
+  },
+  hero: {
+    show: true,
+    title: "🐨 Tu espacio para crear",
+    subtitle: "Útiles, arte y papelería con personalidad. Envíos a todo el país.",
+    image: "",
+    cta: "¡Ver todo!",
+    ctaScroll: true,
+  },
+  nav: { showSearch: true, showCart: true, sticky: true },
+  catalog: {
+    showCategories: true, showSearch: true, defaultCategory: "Todo",
+    productsPerRow: 3, showOutOfStock: true, outOfStockLabel: "Sin stock",
+    addToCartLabel: "Agregar 🛒", showPriceOnCard: true,
+    showSort: true, defaultSort: "name-asc",
+  },
+  promo: {
+    show: true,
+    layout: "cards",
+    heading: "¿Por qué Koala? 🐨",
+    items: [
+      {
+        image:  "https://placehold.co/600x450/f3f0ff/7c3aed?text=✋+Seleccionado+a+mano",
+        label:  "Calidad",
+        title:  "Seleccionado a mano",
+        text:   "Cada producto pasa por nuestro control de calidad. Solo lo mejor llega a tu mochila.",
+        cta:    "",
+      },
+      {
+        image:  "https://placehold.co/600x450/f3f0ff/7c3aed?text=📦+Envío+Gratis",
+        label:  "Envíos",
+        title:  "Gratis en compras +$10.000",
+        text:   "Despachamos a todo el país en 48–72hs hábiles con Andreani o correo argentino.",
+        cta:    "",
+      },
+      {
+        image:  "https://placehold.co/600x450/f3f0ff/7c3aed?text=🎨+Arte+y+Creatividad",
+        label:  "Inspiración",
+        title:  "Arte y creatividad",
+        text:   "Materiales para dibujo, pintura y manualidades. Para todas las edades y niveles.",
+        cta:    "",
+      },
+    ],
+  },
+
+  announcement: {
+    show: true,
+    items: [
+      { icon: "🎁", title: "Envío gratis",      text: "En compras mayores a $10.000 a todo el país." },
+      { icon: "🔄", title: "Cambios y devoluciones", text: "Hasta 15 días desde la compra, sin preguntas." },
+      { icon: "🐨", title: "Productos originales", text: "Todos nuestros artículos son seleccionados a mano." },
+    ],
+    note: "",
+  },
+  cart: { persist: true, shippingNote: "Envío gratis en compras mayores a $10.000." },
+  footer: {
+    show: true,
+    text: "",
+    social: { instagram: "papeleria.koala", facebook: "papeleria.koala", tiktok: "" },
+  },
+};

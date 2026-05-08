@@ -1,0 +1,86 @@
+[
+  {
+    "id": "turnstile-glow-on-review",
+    "title": "Turnstile y el post-hardcore que no sabías que necesitabas",
+    "slug": "turnstile-glow-on-review",
+    "category": "Reviews",
+    "date": "2026-04-28",
+    "author": "Tomás Herrera",
+    "excerpt": "GLOW ON no solo redefine el hardcore de Baltimore, lo convierte en algo que querés escuchar a todo volumen con las ventanas abiertas.",
+    "thumbnail": "https://placehold.co/800x500/0f0f0f/dc2626?text=TURNSTILE",
+    "content": "<p>Hay discos que llegan y te sacuden. <em>GLOW ON</em> de Turnstile es uno de esos. Desde el primer acorde de <strong>Blackout</strong>, queda claro que esto no es el hardcore de siempre.</p><p>La banda de Baltimore mezcla riffs aplastantes con arreglos que suenan casi pop, y lo hace sin perder ni un gramo de urgencia. Es el tipo de álbum que hace que gente que nunca escuchó hardcore lo agregue a su playlist favorita.</p><p>Tracks como <em>Holiday</em> o <em>New Heart Design</em> demuestran que los límites entre géneros son, en su mayoría, inventados.</p>",
+    "featured": true
+  },
+  {
+    "id": "billie-eilish-hit-me-hard",
+    "title": "HIT ME HARD AND SOFT: el pop que escucha a sus propios silencios",
+    "slug": "billie-eilish-hit-me-hard",
+    "category": "Reviews",
+    "date": "2026-04-15",
+    "author": "Carla Meza",
+    "excerpt": "Billie Eilish entrega su disco más maduro. Menos oscuridad adolescente, más verdad incómoda.",
+    "thumbnail": "https://placehold.co/800x500/111/c084fc?text=BILLIE",
+    "content": "<p>Si <em>WHEN WE ALL FALL ASLEEP</em> fue el debut de una voz generacional, <em>HIT ME HARD AND SOFT</em> es la confirmación de que esa voz tiene mucho más por decir.</p><p>Finneas y Billie refinan su sonido sin abandonarlo. Los bajos siguen graves, las atmósferas siguen envolventes, pero hay una madurez nueva en la letra que lo diferencia de todo lo anterior.</p>",
+    "featured": false
+  },
+  {
+    "id": "kendrick-not-like-us-live",
+    "title": "Kendrick Lamar en vivo: cuando el rap se vuelve teatro",
+    "slug": "kendrick-not-like-us-live",
+    "category": "Live Reports",
+    "date": "2026-04-02",
+    "author": "Diego Salas",
+    "excerpt": "No Like Us sonó tres veces. El estadio no lo podía creer. Nosotros tampoco.",
+    "thumbnail": "https://placehold.co/800x500/0a0a0a/f59e0b?text=KENDRICK",
+    "content": "<p>Hay conciertos y hay eventos. Lo de Kendrick Lamar fue definitivamente un evento. Dos horas de set donde cada canción parecía diseñada para reconfirmar por qué es el MC más importante del siglo.</p><p>La energía al escuchar <em>HUMBLE.</em> fue enorme. Pero cuando arrancó <em>Not Like Us</em> por primera vez, el estadio explotó de una manera que pocas veces se siente.</p>",
+    "featured": false
+  },
+  {
+    "id": "chappell-roan-midwest-princess",
+    "title": "Chappell Roan: el pop que llegó para quedarse (y hacer daño)",
+    "slug": "chappell-roan-midwest-princess",
+    "category": "Entrevistas",
+    "date": "2026-03-20",
+    "author": "Tomás Herrera",
+    "excerpt": "Hablamos con la artista del momento sobre crecer en Missouri, drag queens como influencia, y por qué tardó tanto en llegar.",
+    "thumbnail": "https://placehold.co/800x500/1a0a1a/e879f9?text=CHAPPELL",
+    "content": "<p>Cuando le pregunto a Chappell Roan si se esperaba esto, se ríe. <em>"Para nada"</em>, dice. <em>"Llevo cuatro años en esto. No es de un día para el otro."</em></p><p>Y tiene razón. <em>The Rise and Fall of a Midwest Princess</em> tardó en despegar, pero cuando lo hizo, lo hizo de una forma que difícilmente se olvida. Hoy Roan llena estadios.</p>",
+    "featured": false
+  },
+  {
+    "id": "new-metal-argentina-2026",
+    "title": "La escena metal argentina en 2026: más fuerte que nunca",
+    "slug": "new-metal-argentina-2026",
+    "category": "Escenas",
+    "date": "2026-03-05",
+    "author": "Carla Meza",
+    "excerpt": "Desde Córdoba hasta La Plata, el metal local está viviendo un momento de expansión que pocos esperaban.",
+    "thumbnail": "https://placehold.co/800x500/080808/ef4444?text=METAL+AR",
+    "content": "<p>Hace cinco años, era difícil llenar un venue de 300 personas con metal local. Hoy bandas como <strong>Trono de Huesos</strong>, <strong>Sombra Química</strong> o <strong>Ruido Interior</strong> venden el Luna Park en horas.</p><p>¿Qué cambió? En parte, plataformas. En parte, festivales. Pero sobre todo, una nueva generación que creció escuchando metal y decidió hacerlo.</p>",
+    "featured": false
+  },
+  {
+    "id": "sabrina-carpenter-short-n-sweet",
+    "title": "Short n' Sweet: Sabrina Carpenter cierra el debate",
+    "slug": "sabrina-carpenter-short-n-sweet",
+    "category": "Reviews",
+    "date": "2026-02-18",
+    "author": "Diego Salas",
+    "excerpt": "Pop irresistible, letras que brillan, producción que no pide permiso. El disco del año ya tiene dueña.",
+    "thumbnail": "https://placehold.co/800x500/1c0a0a/f97316?text=SABRINA",
+    "content": "<p>Nadie esperaba que Sabrina Carpenter llegara tan alto tan rápido. <em>Short n' Sweet</em> es, canción por canción, el disco pop más consistente del año. No hay relleno. Todo golpea.</p><p>Desde <em>Espresso</em> hasta <em>Please Please Please</em>, el álbum no pierde ritmo ni intensidad. Carpenter encontró su voz, y es imposible ignorarla.</p>",
+    "featured": false
+  },
+  {
+    "id": "playlist-verano-2026",
+    "title": "50 canciones para el verano que viene",
+    "slug": "playlist-verano-2026",
+    "category": "Listas",
+    "date": "2026-02-01",
+    "author": "Redacción LOUDBOX",
+    "excerpt": "Desde reggaeton hasta shoegaze. Desde Brasil hasta Corea. Nuestra selección para el calor que se viene.",
+    "thumbnail": "https://placehold.co/800x500/050505/84cc16?text=PLAYLIST",
+    "content": "<p>El verano tiene su propia banda sonora. Este año armamos la lista más diversa de la historia de LOUDBOX: 50 canciones que van desde el hyperpop hasta la cumbia digital, pasando por indie chileno y afrobeats nigeriano.</p><p>Escuchala en orden. O en shuffle. O ponela en una fiesta y observá qué pasa. Todo vale.</p>",
+    "featured": false
+  }
+]

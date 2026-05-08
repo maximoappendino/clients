@@ -1,0 +1,74 @@
+/* ─── SENTINEL — Dark security SaaS with red threat aesthetic ─── */
+
+/* Scan line animation on hero */
+@keyframes scanline {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+#hero {
+  overflow: hidden;
+}
+#hero::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(239,68,68,.4), transparent);
+  animation: scanline 4s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Red radial hero glow */
+#hero::before {
+  background: radial-gradient(ellipse at 50% 0%,
+    rgba(239,68,68,.15) 0%,
+    transparent 60%
+  );
+}
+
+/* Red gradient headline */
+#hero-h1 {
+  background: linear-gradient(160deg, #e8eaf0 30%, #ef4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: pre-line;
+}
+
+/* Badge */
+#hero-badge {
+  border-color: rgba(239,68,68,.4);
+  background: rgba(239,68,68,.08);
+  color: #f87171;
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+#hero-badge::before { content: '● '; animation: blink 1.5s step-end infinite; }
+
+/* Threat-red features icon glow */
+.feature-icon { filter: drop-shadow(0 0 8px rgba(239,68,68,.5)); }
+.feature-card:hover { background: color-mix(in srgb, #ef4444 4%, var(--color-bg)); }
+
+/* Red pulsing CTA button */
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(239,68,68,.3); }
+  50%       { box-shadow: 0 0 0 8px rgba(239,68,68,0); }
+}
+.btn-accent { animation: pulse-red 2.5s ease-in-out infinite; }
+
+/* Bottom CTA */
+#bottom-cta::before {
+  background: radial-gradient(ellipse at center,
+    rgba(239,68,68,.12) 0%,
+    transparent 65%
+  );
+}
+
+/* Step numbers */
+.step-number { border-color: rgba(239,68,68,.3); color: #ef4444; }
+
+/* Nav — security bar */
+#nav { border-bottom: 1px solid rgba(239,68,68,.2); }

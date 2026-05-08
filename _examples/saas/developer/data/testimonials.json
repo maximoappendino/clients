@@ -1,0 +1,5 @@
+[
+  { "quote": "We moved from Heroku to Shipfast and cut our infra bill by 60%. The DX is better too. Deploy times went from 8 minutes to 90 seconds.", "name": "Camila Torres", "role": "CTO", "company": "Finloop", "avatar": "" },
+  { "quote": "Preview branches are a game changer. Our designer reviews on the actual environment now, not screenshots. Shipping velocity doubled.", "name": "Mateo Aldaz", "role": "Lead Engineer", "company": "Notivio", "avatar": "" },
+  { "quote": "I had a production incident at 2am. One-click rollback and it was over in 3 minutes. My previous setup would have taken an hour.", "name": "Lucia Park", "role": "Solo Founder", "company": "Feedwell", "avatar": "" }
+]
