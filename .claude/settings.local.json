@@ -6,7 +6,8 @@
       "Bash(sed -i 's|  <!-- ─── FOOTER|  <!-- ─── ANNOUNCEMENT ─────────────────────────────────────────────────── -->\\\\n  <section id=\"announcement\">\\\\n    <div id=\"announcement-items\"></div>\\\\n    <p id=\"announcement-note\"></p>\\\\n  </section>\\\\n\\\\n  <!-- ─── FOOTER|' /home/maximo/GitHub/maximoappendino/clients/_examples/e-commerce/__TRACKED_VAR__/index.html)",
       "Bash(sed -n '40,60p' /home/maximo/GitHub/maximoappendino/clients/_examples/e-commerce/bikes/config.js)",
       "Bash(sed -n '40,60p' /home/maximo/GitHub/maximoappendino/clients/_examples/e-commerce/school/config.js)",
-      "Bash(sed -n '40,60p' /home/maximo/GitHub/maximoappendino/clients/_examples/e-commerce/makeup/config.js)"
+      "Bash(sed -n '40,60p' /home/maximo/GitHub/maximoappendino/clients/_examples/e-commerce/makeup/config.js)",
+      "Bash(file img/*.jpg img/*.mp4)"
     ]
   }
 }
